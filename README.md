@@ -27,7 +27,7 @@ Spherical functions like the shown environment maps have a multitude of applicat
 This repository contains two main components:
 
 - **`radiance/`** - Uses Spherical Voronoi instead of Spherical Harmonics for directional appearance. Backbone: Beta Splatting.
-- **`reflection/`** - Uses Spherical Voronoi–parameterized light probes for reflections. Backbone: 2D Gaussian Splatting with differentiable rasterization.
+- **`reflection/`** - Uses Spherical Voronoi–parameterized light probes for reflections. Backbone: 2D Gaussian Splatting.
 
 ---
 
