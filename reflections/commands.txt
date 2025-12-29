@@ -7,4 +7,4 @@ python train.py --eval --warmup_iters 1 --num_probes 1024 --alpha_lr 0.001 --col
 
 for sedan and toycar
 python train_real.py --eval --scene sedan --warmup_iters 700 --alpha_lr 0.001 --colors_lr 0.001 --map_lr 0.001 --positions_lp_lr 0.005 --roughness_lr 0.002 --sites_lr 0.001 --dc_lr 0.001 --images images_8 --densify_until_iter  12_000
-python train_real.py --eval --scene toycar --warmup_iters 700 --alpha_lr 0.001 --colors_lr 0.001 --map_lr 0.001 --positions_lp_lr 0.005 --roughness_lr 0.002 --sites_lr 0.001 --dc_lr 0.001 -images images_4 --densify_until_iter  12_000
+python train_real.py --eval --scene toycar --warmup_iters 700 --alpha_lr 0.001 --colors_lr 0.001 --map_lr 0.001 --positions_lp_lr 0.005 --roughness_lr 0.002 --sites_lr 0.001 --dc_lr 0.001 --images images_4 --densify_until_iter  12_000
