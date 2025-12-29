@@ -26,8 +26,8 @@ Spherical functions like the shown environment maps have a multitude of applicat
 
 This repository contains two main components:
 
-- **`radiance/`** - Uses Spherical Voronoi instead of Spherical Harmonics for directional appearance. Backbone: Beta Splatting.
-- **`reflection/`** - Uses Spherical Voronoi–parameterized light probes for reflections. Backbone: 2D Gaussian Splatting.
+- **`radiance/`** - Uses Spherical Voronoi instead of Spherical Harmonics (SH) for directional appearance. Backbone: Beta Splatting.
+- **`reflection/`** - Uses Spherical Voronoi–parameterized light probes for reflections. Backbone: 2D Gaussian Splatting with differentiable rasterization.
 
 ---
 
@@ -141,7 +141,17 @@ If you use this work in your research, please cite:
 
 ## Acknowledgments
 
-This work builds upon several excellent open-source projects:
-- [Beta Splatting](https://github.com/RongLiu-Leo/beta-splatting)
-- [2D Gaussian Splatting](https://github.com/hbb1/2d-gaussian-splatting)
-- [Ref-GS](https://github.com/YoujiaZhang/Ref-GS)
+This work builds upon several excellent open-source projects. We are grateful to the authors for making their code publicly available:
+
+- [Beta Splatting](https://github.com/RongLiu-Leo/beta-splatting) 
+- [2D Gaussian Splatting](https://github.com/hbb1/2d-gaussian-splatting) 
+- [Ref-GS](https://github.com/YoujiaZhang/Ref-GS) 
+- [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
+- [gsplat](https://github.com/nerfstudio-project/gsplat) 
+
+
+---
+
+## Contact
+
+For questions or inquiries, please contact [Francesco Di Sario](mailto:francesco.disario@unito.it).
