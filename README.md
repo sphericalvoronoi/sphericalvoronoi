@@ -88,18 +88,15 @@ The training script:
 
 ### Setup
 
-If not already installed, install PyTorch, torchvision, and torchaudio according to your CUDA version following the [official instructions](https://pytorch.org/get-started/locally/).
-
-Install [PyTorch3D](https://github.com/facebookresearch/pytorch3d) and [nvdiffrast](https://github.com/NVlabs/nvdiffrast) following their respective official instructions.
-
-Install repository submodules:
-
 ```bash
+cd reflection
 pip install -e submodules/diff-surfel-rasterization
 pip install -e submodules/diff-surfel-rasterization-real
 pip install -e submodules/diff-surfel-2dgs
 pip install -e submodules/sv-probes
 ```
+
+**Note:** You will also need [PyTorch3D](https://github.com/facebookresearch/pytorch3d) and [nvdiffrast](https://github.com/NVlabs/nvdiffrast).
 
 ### Training and Evaluation
 
@@ -143,12 +140,10 @@ If you use this work in your research, please cite:
 
 This work builds upon several excellent open-source projects. We are grateful to the authors for making their code publicly available:
 
-- [Beta Splatting](https://github.com/RongLiu-Leo/beta-splatting) 
-- [2D Gaussian Splatting](https://github.com/hbb1/2d-gaussian-splatting) 
-- [Ref-GS](https://github.com/YoujiaZhang/Ref-GS) 
-- [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
-- [gsplat](https://github.com/nerfstudio-project/gsplat) 
-
+- [Beta Splatting](https://github.com/RongLiu-Leo/beta-splatting)
+- [2D Gaussian Splatting](https://github.com/hbb1/2d-gaussian-splatting)
+- [Ref-GS](https://github.com/YoujiaZhang/Ref-GS)
+- [gsplat](https://github.com/nerfstudio-project/gsplat)
 
 ---
 
