@@ -1,0 +1,96 @@
+### Spherical Voronoi ###
+python train.py --eval --source_path /DATSET_DIR/bonsai --model_path ./output/voronoi/nerf_real_360/bonsai --color_rep voronoi --scene bonsai --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/counter --model_path ./output/voronoi/nerf_real_360/counter --color_rep voronoi --scene counter --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/flowers --model_path ./output/voronoi/nerf_real_360/flowers --color_rep voronoi --scene flowers --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/garden --model_path ./output/voronoi/nerf_real_360/garden --color_rep voronoi --scene garden --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/kitchen --model_path ./output/voronoi/nerf_real_360/kitchen --color_rep voronoi --scene kitchen --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/room --model_path ./output/voronoi/nerf_real_360/room --color_rep voronoi --scene room --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/stump --model_path ./output/voronoi/nerf_real_360/stump --color_rep voronoi --scene stump --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/treehill --model_path ./output/voronoi/nerf_real_360/treehill --color_rep voronoi --scene treehill --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/lego --model_path ./output/voronoi/nerf_synthetic/lego --color_rep voronoi --scene lego --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/mic --model_path ./output/voronoi/nerf_synthetic/mic --color_rep voronoi --scene mic --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ship --model_path ./output/voronoi/nerf_synthetic/ship --color_rep voronoi --scene ship --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/chair --model_path ./output/voronoi/nerf_synthetic/chair --color_rep voronoi --scene chair --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/materials --model_path ./output/voronoi/nerf_synthetic/materials --color_rep voronoi --scene materials --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ficus --model_path ./output/voronoi/nerf_synthetic/ficus --color_rep voronoi --scene ficus --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/hotdog --model_path ./output/voronoi/nerf_synthetic/hotdog --color_rep voronoi --scene hotdog --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/drums --model_path ./output/voronoi/nerf_synthetic/drums --color_rep voronoi --scene drums --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/truck --model_path ./output/voronoi/tandt/truck --color_rep voronoi --scene truck --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/train --model_path ./output/voronoi/tandt/train --color_rep voronoi --scene train --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/playroom --model_path ./output/voronoi/db/playroom --color_rep voronoi --scene playroom --config ./config/db.json 
+python train.py --eval --source_path /DATSET_DIR/drjohnson --model_path ./output/voronoi/db/drjohnson --color_rep voronoi --scene drjohnson --config ./config/db.json 
+
+
+### Spherical Betas ### 
+python train.py --eval --source_path /DATSET_DIR/bicycle --model_path ./output/sb/nerf_real_360/bicycle --color_rep sb --scene bicycle --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/bonsai --model_path ./output/sb/nerf_real_360/bonsai --color_rep sb --scene bonsai --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/counter --model_path ./output/sb/nerf_real_360/counter --color_rep sb --scene counter --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/flowers --model_path ./output/sb/nerf_real_360/flowers --color_rep sb --scene flowers --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/garden --model_path ./output/sb/nerf_real_360/garden --color_rep sb --scene garden --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/kitchen --model_path ./output/sb/nerf_real_360/kitchen --color_rep sb --scene kitchen --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/room --model_path ./output/sb/nerf_real_360/room --color_rep sb --scene room --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/stump --model_path ./output/sb/nerf_real_360/stump --color_rep sb --scene stump --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/treehill --model_path ./output/sb/nerf_real_360/treehill --color_rep sb --scene treehill --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/lego --model_path ./output/sb/nerf_synthetic/lego --color_rep sb --scene lego --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/mic --model_path ./output/sb/nerf_synthetic/mic --color_rep sb --scene mic --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ship --model_path ./output/sb/nerf_synthetic/ship --color_rep sb --scene ship --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/chair --model_path ./output/sb/nerf_synthetic/chair --color_rep sb --scene chair --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/materials --model_path ./output/sb/nerf_synthetic/materials --color_rep sb --scene materials --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ficus --model_path ./output/sb/nerf_synthetic/ficus --color_rep sb --scene ficus --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/hotdog --model_path ./output/sb/nerf_synthetic/hotdog --color_rep sb --scene hotdog --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/drums --model_path ./output/sb/nerf_synthetic/drums --color_rep sb --scene drums --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/truck --model_path ./output/sb/tandt/truck --color_rep sb --scene truck --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/train --model_path ./output/sb/tandt/train --color_rep sb --scene train --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/playroom --model_path ./output/sb/db/playroom --color_rep sb --scene playroom --config ./config/db.json 
+python train.py --eval --source_path /DATSET_DIR/drjohnson --model_path ./output/sb/db/drjohnson --color_rep sb --scene drjohnson --config ./config/db.json 
+
+
+### Spherical Harmonics ###
+python train.py --eval --source_path /DATSET_DIR/bicycle --model_path ./output/sh/nerf_real_360/bicycle --color_rep sh --scene bicycle --config ./config/outdoor.json
+python train.py --eval --source_path /DATSET_DIR/bonsai --model_path ./output/sh/nerf_real_360/bonsai --color_rep sh --scene bonsai --config ./config/indoor.json
+python train.py --eval --source_path /DATSET_DIR/counter --model_path ./output/sh/nerf_real_360/counter --color_rep sh --scene counter --config ./config/indoor.json
+python train.py --eval --source_path /DATSET_DIR/flowers --model_path ./output/sh/nerf_real_360/flowers --color_rep sh --scene flowers --config ./config/outdoor.json
+python train.py --eval --source_path /DATSET_DIR/garden --model_path ./output/sh/nerf_real_360/garden --color_rep sh --scene garden --config ./config/outdoor.json
+python train.py --eval --source_path /DATSET_DIR/kitchen --model_path ./output/sh/nerf_real_360/kitchen --color_rep sh --scene kitchen --config ./config/indoor.json
+python train.py --eval --source_path /DATSET_DIR/room --model_path ./output/sh/nerf_real_360/room --color_rep sh --scene room --config ./config/indoor.json
+python train.py --eval --source_path /DATSET_DIR/stump --model_path ./output/sh/nerf_real_360/stump --color_rep sh --scene stump --config ./config/outdoor.json
+python train.py --eval --source_path /DATSET_DIR/treehill --model_path ./output/sh/nerf_real_360/treehill --color_rep sh --scene treehill --config ./config/outdoor.json
+python train.py --eval --source_path /DATSET_DIR/lego --model_path ./output/sh/nerf_synthetic/lego --color_rep sh --scene lego --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/mic --model_path ./output/sh/nerf_synthetic/mic --color_rep sh --scene mic --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/ship --model_path ./output/sh/nerf_synthetic/ship --color_rep sh --scene ship --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/chair --model_path ./output/sh/nerf_synthetic/chair --color_rep sh --scene chair --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/materials --model_path ./output/sh/nerf_synthetic/materials --color_rep sh --scene materials --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/ficus --model_path ./output/sh/nerf_synthetic/ficus --color_rep sh --scene ficus --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/hotdog --model_path ./output/sh/nerf_synthetic/hotdog --color_rep sh --scene hotdog --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/drums --model_path ./output/sh/nerf_synthetic/drums --color_rep sh --scene drums --config ./config/blender.json --white_background
+python train.py --eval --source_path /DATSET_DIR/truck --model_path ./output/sh/tandt/truck --color_rep sh --scene truck --config ./config/tandt.json
+python train.py --eval --source_path /DATSET_DIR/train --model_path ./output/sh/tandt/train --color_rep sh --scene train --config ./config/tandt.json
+python train.py --eval --source_path /DATSET_DIR/playroom --model_path ./output/sh/db/playroom --color_rep sh --scene playroom --config ./config/db.json
+python train.py --eval --source_path /DATSET_DIR/drjohnson --model_path ./output/sh/db/drjohnson --color_rep sh --scene drjohnson --config ./config/db.json
+
+
+### Spherical Gaussians ###
+python train.py --eval --source_path /DATSET_DIR/bicycle --model_path ./output/sgs/nerf_real_360/bicycle --color_rep sgs --scene bicycle --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/bonsai --model_path ./output/sgs/nerf_real_360/bonsai --color_rep sgs --scene bonsai --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/counter --model_path ./output/sgs/nerf_real_360/counter --color_rep sgs --scene counter --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/flowers --model_path ./output/sgs/nerf_real_360/flowers --color_rep sgs --scene flowers --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/garden --model_path ./output/sgs/nerf_real_360/garden --color_rep sgs --scene garden --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/kitchen --model_path ./output/sgs/nerf_real_360/kitchen --color_rep sgs --scene kitchen --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/room --model_path ./output/sgs/nerf_real_360/room --color_rep sgs --scene room --config ./config/indoor.json 
+python train.py --eval --source_path /DATSET_DIR/stump --model_path ./output/sgs/nerf_real_360/stump --color_rep sgs --scene stump --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/treehill --model_path ./output/sgs/nerf_real_360/treehill --color_rep sgs --scene treehill --config ./config/outdoor.json 
+python train.py --eval --source_path /DATSET_DIR/lego --model_path ./output/sgs/nerf_synthetic/lego --color_rep sgs --scene lego --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/mic --model_path ./output/sgs/nerf_synthetic/mic --color_rep sgs --scene mic --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ship --model_path ./output/sgs/nerf_synthetic/ship --color_rep sgs --scene ship --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/chair --model_path ./output/sgs/nerf_synthetic/chair --color_rep sgs --scene chair --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/materials --model_path ./output/sgs/nerf_synthetic/materials --color_rep sgs --scene materials --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/ficus --model_path ./output/sgs/nerf_synthetic/ficus --color_rep sgs --scene ficus --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/hotdog --model_path ./output/sgs/nerf_synthetic/hotdog --color_rep sgs --scene hotdog --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/drums --model_path ./output/sgs/nerf_synthetic/drums --color_rep sgs --scene drums --config ./config/blender.json --white_background 
+python train.py --eval --source_path /DATSET_DIR/truck --model_path ./output/sgs/tandt/truck --color_rep sgs --scene truck --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/train --model_path ./output/sgs/tandt/train --color_rep sgs --scene train --config ./config/tandt.json 
+python train.py --eval --source_path /DATSET_DIR/playroom --model_path ./output/sgs/db/playroom --color_rep sgs --scene playroom --config ./config/db.json 
+python train.py --eval --source_path /DATSET_DIR/drjohnson --model_path ./output/sgs/db/drjohnson --color_rep sgs --scene drjohnson --config ./config/db.json 
+
+
+
