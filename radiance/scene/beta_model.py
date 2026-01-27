@@ -278,7 +278,7 @@ class BetaModel:
             W = torch.softmax(logits, dim=-1).unsqueeze(-1)
             V = (W * self.get_color).sum(dim=1)
 
-            return V
+            return torch.clamp_min(V, 0.0)
     
     
         if self.color_representation == 'sgs':
