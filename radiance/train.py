@@ -152,7 +152,7 @@ def training(args):
                         "Beta": f"{beta_model._beta.mean().item():.2f}",
                     }
                 )
-                progress_bar.update(100)
+                progress_bar.update(10)
                 
             freeze_voronoi_sites = (
                 beta_model.color_representation == 'voronoi'
