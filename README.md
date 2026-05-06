@@ -1,6 +1,4 @@
-# Spherical Voronoi
-
-**Directional Appearance as a Differentiable Partition of the Sphere** 🌐
+# Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere 
 
 🏆 **Accepted at CVPR 2026**
 
