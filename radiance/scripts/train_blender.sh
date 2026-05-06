@@ -11,5 +11,6 @@ for scene in lego mic ship chair ficus hotdog materials drums; do
         --color_mode voronoi \
         -s "$DATA_ROOT/$scene" \
         -m "$OUT_ROOT/$scene" \
-        --config "$REPO/configs/$scene.json"
+        --config "$REPO/configs/blender.json" \
+        --scene "$scene"
 done

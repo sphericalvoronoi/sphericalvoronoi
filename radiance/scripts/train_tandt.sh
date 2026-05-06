@@ -8,8 +8,9 @@ OUT_ROOT="$REPO/output"
 for scene in train truck; do
     python3 "$REPO/train.py" \
         --eval \
-        --color_mode voronoi \
+        --color_rep voronoi \
         -s "$DATA_ROOT/$scene" \
         -m "$OUT_ROOT/$scene" \
-        --config "$REPO/configs/$scene.json"
+        --config "$REPO/configs/tandt.json" \
+        --scene "$scene"
 done

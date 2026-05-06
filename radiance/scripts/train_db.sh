@@ -11,5 +11,6 @@ for scene in drjohnson playroom; do
         --color_mode voronoi \
         -s "$DATA_ROOT/$scene" \
         -m "$OUT_ROOT/$scene" \
-        --config "$REPO/configs/$scene.json"
+        --config "$REPO/configs/db.json" \
+        --scene "$scene"
 done
