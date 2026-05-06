@@ -120,7 +120,7 @@ python train.py --eval \
 The training script:
 - Trains and evaluates the model
 - Saves rendered images
-- Reports **PSNR**, **SSIM**, **LPIPS**, and **FPS**
+- Reports **PSNR**, **SSIM**, **LPIPS**
 
 ### Datasets
 
@@ -149,7 +149,7 @@ pip install -e submodules/sv-probes
 Ready-to-run scripts are provided in the `scripts/` folder. A typical manual command is:
 
 ```bash
-python train.py --eval --m /DATASET_DIR -s /OUTPUT_DIR --rand_bg
+python train.py --eval --m /OUTPUT_DIR -s /DATASET_DIR --rand_bg
 ```
 
 The training script:
