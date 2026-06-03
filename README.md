@@ -170,11 +170,13 @@ The training script:
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{disario2025sphericalvoronoidirectionalappearance,
-  title = {Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere},
-  author = {Di Sario, Francesco and Rebain, Daniel and Verbin, Dor and Grangetto, Marco and Tagliasacchi, Andrea},
-  journal = {arXiv preprint arXiv:2512.14180},
-  year = {2025}
+@InProceedings{Di_Sario_2026_CVPR,
+    author = {Di Sario, Francesco and Rebain, Daniel and Verbin, Dor and Grangetto, Marco and Tagliasacchi, Andrea},
+    title = {Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2026},
+    pages = {22529-22538}
 }
 ```
 
