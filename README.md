@@ -90,10 +90,10 @@ Install PyTorch according to your CUDA version following the [official instructi
 ### Setup
 
 ```bash
-cd radiance
-pip install -e .
-pip install ./gsplat
-pip install ./spherical-voronoi
+cd radiance/submodules
+unzip modules.zip
+pip install .
+pip install spherical-voronoi
 ```
 
 ### Training and Evaluation
